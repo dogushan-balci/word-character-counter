@@ -24,7 +24,7 @@ A powerful web-based tool for analyzing text content, designed for writers, edit
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dogushan.balci/word-counter.git
+git clone https://github.com/dogushan.balci/word-character-counter.git
 ```
 
 2. Open `index.html` in your web browser
@@ -83,4 +83,4 @@ For any questions or suggestions, please reach out to me through:
 - Website: [https://dogushanbalci.com](https://dogushanbalci.com)
 - GitHub: [@dogushan.balci](https://github.com/dogushan.balci)
 
-Project Link: [https://github.com/dogushan.balci/word-counter](https://github.com/dogushan.balci/word-counter) 
+Project Link: [https://github.com/dogushan.balci/word-character-counter](https://github.com/dogushan.balci/word-character-counter) 
