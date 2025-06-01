@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word & Character Counter | Advanced Text Analysis Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Word & Character Counter</h1>
+            <p class="subtitle">Advanced text analysis tool for writers, editors, and content creators</p>
+        </header>
+
+        <main class="main-content">
+            <div class="input-section">
+                <div class="textarea-container">
+                    <textarea id="text-input" placeholder="Type or paste your text here..."></textarea>
+                    <div class="textarea-actions">
+                        <button id="clear-btn" class="btn btn-secondary">Clear</button>
+                        <button id="copy-btn" class="btn btn-secondary">Copy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Word Count</h3>
+                        <p id="word-count">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Character Count</h3>
+                        <p id="char-count">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Character Count (No Spaces)</h3>
+                        <p id="char-no-space-count">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Line Count</h3>
+                        <p id="line-count">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Paragraph Count</h3>
+                        <p id="paragraph-count">0</p>
+                    </div>
+                </div>
+
+                <div class="word-length-distribution">
+                    <h2>Word Length Distribution</h2>
+                    <div class="distribution-grid" id="distribution-grid">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="most-used-words">
+                    <h2>Most Used Words</h2>
+                    <div class="words-list" id="words-list">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="text-analysis">
+                    <h2>Text Analysis</h2>
+                    <div class="analysis-grid">
+                        <div class="stat-card">
+                            <h3>Average Word Length</h3>
+                            <p id="avg-word-length">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Longest Word</h3>
+                            <p id="longest-word">-</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Longest Word Length</h3>
+                            <p id="longest-word-length">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Unique Words</h3>
+                            <p id="unique-word-count">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>Created by <a href="https://dogushanbalci.com" target="_blank">Doğuşhan BALCI</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
